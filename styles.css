@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #F7F9FA;
+    background-color: #000011;
 }
 
 h1, h2 {
@@ -18,15 +18,15 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     margin: 10px;
-    background-color: #3B86FF;
-    color: #FFFFFF;
-    border-radius: 5px;
-    border: none;
+    background-color: #aa333F;
+    color: #fff55;
+    border-radius: 10px;
+    border: solid 3px #00C700;
     cursor: pointer;
 }
 
 button.active {
-    background-color: #2A69CC;
+    background-color: #C70039;
 }
 
 #output {
@@ -40,15 +40,15 @@ textarea {
     width: 400px;
     height: 120px;
     margin-bottom: 10px;
-    border-radius: 5px;
-    border: solid 1px #B9BEC5;
+    border-radius: 10px;
+    border: solid 2px #C70039;
     padding: 10px;
 }
 
 input[type="password"] {
     width: 400px;
     margin-bottom: 10px;
-    border-radius: 5px;
-    border: solid 1px #B9BEC5;
+    border-radius: 15px;
+    border: solid 4px #00C700;
     padding: 10px;
 }
